@@ -128,6 +128,13 @@ if (vTre < vUno || vTre < vDue){
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+//NON DICHIARO LE VARIABILI LE RI UTILIZZO
+if (typeof vUno === "number"){
+  console.log("E un numero")
+} else {
+  console.log("Non è un numero")
+}
+
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
