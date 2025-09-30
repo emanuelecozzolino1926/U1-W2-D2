@@ -46,6 +46,8 @@ if (divResult === 0){
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
+/* SCRIVI QUI LA TUA RISPOSTA */
+
 const vNum1 = 19
 const vNum2 = 4
 
@@ -58,7 +60,6 @@ if (vNum1 === 8 || vNum2 === 8){
 } else
   console.log("Nessun numero uguale a 8")
 
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -67,6 +68,19 @@ if (vNum1 === 8 || vNum2 === 8){
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+const totalShoppingCart = 45
+let shippingCost
+
+if (totalShoppingCart > 50) {
+  console.log("La spedizione è gratuita")
+  shippingCost = totalShoppingCart
+} else {
+  shippingCost = totalShoppingCart + 10
+}
+
+console.log("Totale da pagare: " + shippingCost)
+
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
