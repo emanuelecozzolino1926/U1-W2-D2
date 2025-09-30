@@ -140,6 +140,16 @@ if (typeof vUno === "number"){
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
+//NON DICHIARO LE VARIABILI LE RI UTILIZZO
+
+const calcoloPari = vUno % 2
+
+if (calcoloPari === 0){
+  console.log("Il numero è pari")
+} else {
+  console.log("Non è pari")
+}
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 10
