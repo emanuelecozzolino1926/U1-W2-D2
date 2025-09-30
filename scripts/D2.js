@@ -214,8 +214,25 @@ me.skills.splice(1,1)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const array1 = []   // array vuoto
+
+array1.push(1)
+array1.push(2)
+array1.push(3)
+array1.push(4)
+array1.push(5)
+array1.push(6)
+array1.push(7)
+array1.push(8)
+array1.push(9)
+array1.push(10)
+
+console.log(array1)
+
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+array1[9] = 100   // l’ultimo elemento è all’indice 9 (perché si parte da 0)
+console.log(array1) // [1,2,3,4,5,6,7,8,9,100]
