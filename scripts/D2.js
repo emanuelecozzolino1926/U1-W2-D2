@@ -88,6 +88,18 @@ console.log("Totale da pagare: " + shippingCost)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+//NON DICHIARO LE VARIABILI LE RI UTILIZZO
+const discountedCart = totalShoppingCart * 0.8
+
+if (discountedCart > 50) {
+  console.log("La spedizione è gratuita")
+  shippingCost = discountedCart
+} else {
+  shippingCost = discountedCart + 10
+}
+
+console.log("Totale da pagare: " + shippingCost)
+
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -96,6 +108,7 @@ console.log("Totale da pagare: " + shippingCost)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
