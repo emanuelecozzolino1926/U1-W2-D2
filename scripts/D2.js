@@ -46,6 +46,18 @@ if (divResult === 0){
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
+const vNum1 = 19
+const vNum2 = 4
+
+if (vNum1 === 8 || vNum2 === 8){
+  console.log("Uguale a 8")
+} else if(vNum1 - vNum2 === 8 || vNum2 - vNum1 === 8){
+  console.log("Uguale a 8")
+}else if (vNum1 + vNum2 === 8){
+  console.log("Uguale a 8")
+} else
+  console.log("Nessun numero uguale a 8")
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 5
