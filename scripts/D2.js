@@ -108,6 +108,19 @@ console.log("Totale da pagare: " + shippingCost)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const vUno = 45
+const vDue = 28
+const vTre = 18
+
+if (vUno > vDue && vUno > vTre){
+  console.log(vUno + " E il numero più grande")
+}
+if (vDue < vUno && vDue > vTre){
+  console.log(vDue + " E il secondo numer piu grande")
+}
+if (vTre < vUno || vTre < vDue){
+  console.log(vTre + " E il più piccolo")
+}
 
 
 /* ESERCIZIO 8
